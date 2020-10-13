@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('miprimerlayout', function () {
+    return view('Mi primer Layout');
+});
+Route::get('investigacion', function () {
+    return view('investigacion');
+});
